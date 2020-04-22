@@ -1,0 +1,23 @@
+{
+  "name": "Removing_names_that_start_with_J",
+  "version": "1.0.0",
+  "description": "TDD process practise",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ovy95/TDD_Jest_RemovesNames.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ovy95/TDD_Jest_RemovesNames/issues"
+  },
+  "homepage": "https://github.com/Ovy95/TDD_Jest_RemovesNames#readme",
+  "dependencies": {
+    "jest": "^25.4.0"
+  }
+}
