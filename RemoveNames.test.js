@@ -13,6 +13,13 @@ describe('removeJNames', function () {
     expect(removeJNames(names)).toContain('Carol')
   });
 
+  it('Edge case what is the name is typed in lower case', () => {
+    const names = ['james', 'Carol','Pete','jim'];
+    expect(removeJNames(names)).not.toContain('james')
+    expect(removeJNames(names)).not.toContain('jim')
+    expect(removeJNames(names)).toContain('Pete')
+    expect(removeJNames(names)).toContain('Carol')
+  }); 
 
 });
 
